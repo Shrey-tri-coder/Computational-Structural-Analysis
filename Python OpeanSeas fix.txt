@@ -1,0 +1,8 @@
+Python OpeanSeas fix
+
+deactivate
+py -3.10 -m venv venv310
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned
+venv310\Scripts\activate
+pip install openseespy opsvis matplotlib
+python 1ex1s.py

@@ -1,0 +1,16 @@
+--- SUPPORT REACTIONS ---
+Node A (1): Fx = -13.11 kN, Fy = 109.47 kN, Mz = 40.85 kNm
+Node B (2): Fx = -28.89 kN, Fy = 165.86 kN, Mz = 60.26 kNm
+
+--- BEAM END FORCES (Shear & Moment) ---
+Beam Element 5:
+  Left Node  - Shear: 52.13 kN, Moment: 9.75 kNm
+  Right Node - Shear: 86.74 kN, Moment: -104.93 kNm
+Beam Element 6:
+  Left Node  - Shear: 57.33 kN, Moment: 19.05 kNm
+  Right Node - Shear: 79.12 kN, Moment: -78.96 kNm
+Traceback (most recent call last):
+  File "C:\Users\Shreyansh Tripathi\OneDrive\Documents\Project_Civil\OpenSees\p5.py", line 120, in <module>
+    opsv.plot_model(node_labels=1, element_labels=1, fmt_nodes='b.', fig_wi_he=(12, 8))
+TypeError: plot_model() got an unexpected keyword argument 'fmt_nodes'
+PS C:\Users\Shreyansh Tripathi\OneDrive\Documents\Project_Civil\OpenSees> 
